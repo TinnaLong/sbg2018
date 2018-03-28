@@ -1,0 +1,403 @@
+1522147166338	geckodriver	INFO	geckodriver 0.20.0
+1522147166351	geckodriver	INFO	Listening on 127.0.0.1:60799
+1522147167392	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.wIcIYUCfa0UO"
+1522147174040	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:39:35.462 plugin-container[15999:6611877] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147175978	Marionette	INFO	Listening on port 60815
+2018-03-27 18:39:36.620 plugin-container[16000:6611943] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147186873	geckodriver	INFO	geckodriver 0.20.0
+1522147186886	geckodriver	INFO	Listening on 127.0.0.1:60905
+1522147187919	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.gZO3W8ZT40vZ"
+1522147188662	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:39:50.192 plugin-container[16009:6612209] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8407, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-27 18:39:50.957 plugin-container[16010:6612276] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147191302	Marionette	INFO	Listening on port 60921
+1522147191412	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter39
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:600:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:600:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/pagestyle50, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1296:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1454:14
+PageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:67:21
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:91:21
+_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:904:12
+selectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:819:16
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+  Stack:
+    destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1239:23
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:40:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1241:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:510:5
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:891:5
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:1020:7
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:668:11
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:277:7
+detachClients@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:301:9
+DebuggerClient.requester/</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:127:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+safeOnResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:617:14
+listenerJson@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:638:25
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+emitReply@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:921:29
+callFunctionWithAsyncStack@resource://devtools/shared/base-loader.js -> resource://devtools/shared/platform/stack.js:56:10
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:923:9
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/pagestyle50, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1296:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1454:14
+PageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:67:21
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:91:21
+_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:904:12
+selectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:819:16
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+  Stack:
+    destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1239:23
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:40:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1241:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:510:5
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:891:5
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:1020:7
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:668:11
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:277:7
+detachClients@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:301:9
+DebuggerClient.requester/</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:127:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+safeOnResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:617:14
+listenerJson@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:638:25
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+emitReply@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:921:29
+callFunctionWithAsyncStack@resource://devtools/shared/base-loader.js -> resource://devtools/shared/platform/stack.js:56:10
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:923:9
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/pagestyle50, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1296:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1454:14
+PageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:67:21
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:91:21
+_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:904:12
+selectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:819:16
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+  Stack:
+    destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1239:23
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:40:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1241:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:510:5
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:891:5
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:1020:7
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:668:11
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:664:9
+cleanup@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:277:7
+detachClients@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:301:9
+DebuggerClient.requester/</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:127:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+safeOnResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:617:14
+listenerJson@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:638:25
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+emitReply@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:921:29
+callFunctionWithAsyncStack@resource://devtools/shared/base-loader.js -> resource://devtools/shared/platform/stack.js:56:10
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:923:9
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+
+console.error: 
+  stylesheets actor: fetch failed for https://84654884b68f749e7aa3-aa57143e2ca30795bf94ff3884a3b19b.ssl.cf1.rackcdn.com/en/css/font-awesome.css?v=1521701252, using system principal instead.
+console.error: 
+  Message: Error: Failed to fetch https://84654884b68f749e7aa3-aa57143e2ca30795bf94ff3884a3b19b.ssl.cf1.rackcdn.com/en/css/font-awesome.css?v=1521701252. Code 2147746065.
+  Stack:
+    onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:553:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:131:17
+
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:553:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:131:17
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.inspector is null
+Full stack: get conn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:103:5
+writeError@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:968:5
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:925:21
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+*************************
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147206059	geckodriver::marionette	ERROR	Failed to stop browser process
+1522147581243	geckodriver	INFO	geckodriver 0.20.0
+1522147581259	geckodriver	INFO	Listening on 127.0.0.1:63121
+1522147582282	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.Euw3ld4u7su4"
+1522147583500	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:46:25.466 plugin-container[16117:6616710] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147586380	Marionette	INFO	Listening on port 63137
+1522147586460	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-27 18:46:27.929 plugin-container[16118:6616837] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7927, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147604080	geckodriver::marionette	ERROR	Failed to stop browser process
+1522147730867	geckodriver	INFO	geckodriver 0.20.0
+1522147730877	geckodriver	INFO	Listening on 127.0.0.1:64057
+1522147730911	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.y6oDyb5krHOG"
+1522147731794	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:48:53.437 plugin-container[16168:6618563] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-27 18:48:54.221 plugin-container[16169:6618626] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8007, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147734508	Marionette	INFO	Listening on port 64066
+1522147734608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1522147755394	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1522147758280	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1522147787886	geckodriver	INFO	geckodriver 0.20.0
+1522147787904	geckodriver	INFO	Listening on 127.0.0.1:64574
+1522147788930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.InCld0gKLnJS"
+1522147789908	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:49:51.681 plugin-container[16184:6619789] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x790b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-27 18:49:52.712 plugin-container[16185:6619856] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147792734	Marionette	INFO	Listening on port 64586
+1522147792786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1522147837088	geckodriver	INFO	geckodriver 0.20.0
+1522147837106	geckodriver	INFO	Listening on 127.0.0.1:65042
+1522147838151	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.52gdOc0JaSZh"
+1522147839612	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:50:41.353 plugin-container[16204:6620827] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-27 18:50:42.000 plugin-container[16206:6620890] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7503, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147842124	Marionette	INFO	Listening on port 65060
+1522147842146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147856844	geckodriver::marionette	ERROR	Failed to stop browser process
+1522147871730	geckodriver	INFO	geckodriver 0.20.0
+1522147871740	geckodriver	INFO	Listening on 127.0.0.1:65444
+1522147871789	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.BVzVFZVHO6kj"
+1522147872654	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:51:13.998 plugin-container[16217:6621714] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147874584	Marionette	INFO	Listening on port 65453
+1522147874704	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-27 18:51:16.293 plugin-container[16218:6621825] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1522147897660	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1522147897668	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1522147901684	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1522147903840	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147924794	geckodriver	INFO	geckodriver 0.20.0
+1522147924808	geckodriver	INFO	Listening on 127.0.0.1:49558
+1522147925849	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.7Vkt9QDcwr92"
+1522147926732	Marionette	INFO	Enabled via --marionette
+2018-03-27 18:52:08.378 plugin-container[16232:6622786] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-27 18:52:09.089 plugin-container[16233:6622853] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522147929316	Marionette	INFO	Listening on port 49570
+1522147929428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.smartbuyglasses.com/, line 1: SyntaxError: missing : after property id
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522147941883	geckodriver::marionette	ERROR	Failed to stop browser process
+1522201650774	geckodriver	INFO	geckodriver 0.20.0
+1522201650789	geckodriver	INFO	Listening on 127.0.0.1:52563
+1522201651827	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/x5/s3rygc4x5kn6qdzvxbym__vw0000gn/T/rust_mozprofile.lluJP5ADFziW"
+1522201652934	Marionette	INFO	Enabled via --marionette
+2018-03-28 09:47:34.976 plugin-container[20315:6845677] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x880b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522201655874	Marionette	INFO	Listening on port 52575
+1522201655964	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-28 09:47:36.242 plugin-container[20316:6845772] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7047, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1060:3
+
+1522201669060	Marionette	ERROR	No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 466: TypeError: reply[0] is undefined
+2018-03-28 09:47:51.396 plugin-container[20319:6845989] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522201776460	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1522201802568	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1522201802576	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1522217538234	geckodriver	INFO	geckodriver 0.20.0
+1522217538257	geckodriver	INFO	Listening on 127.0.0.1:51859
+1522217571532	geckodriver	INFO	geckodriver 0.20.0
+1522217571554	geckodriver	INFO	Listening on 127.0.0.1:51950
