@@ -1,6 +1,15 @@
-from sbg.common import driver
+import unittest
+from sbg.common.browser import BrowserEngine
 
-chrome_driver = driver;
-driver = chrome_driver.browser("Chrome")
 
-driver.get("http://www.baidu.com")
+class BaiduSearch(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        browse = BrowserEngine(cls)
+        cls.driver = browse.open_browser(cls)
+
+    def tearDownClass(cls):
+        cls.driver.quit()
+
+
