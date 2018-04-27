@@ -3,7 +3,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from time import sleep
+# from time import sleep
 
 
 driver = webdriver.Firefox()
@@ -16,18 +16,14 @@ WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located((By.XPATH, "
 login_loc = driver.find_element_by_xpath("//li[@id='signin_li']/a/span")
 action = ActionChains(driver)
 action.move_to_element(login_loc).perform()
-sleep(1)
+driver.implicitly_wait(5)
+# sleep(1)
 action.move_to_element(driver.find_element_by_xpath("//li[@id='signin_li']/div/div/span/a")).perform()
 action.click()
 action.perform()
-# driver.find_element_by_xpath("//li[@id='signin_li']/div/div/span/a").click()
 driver.find_element_by_id("username").send_keys("12345678@qq.com")
 driver.find_element_by_id("password").send_keys("156756789")
 driver.find_element_by_xpath("//form[@id='loginFormNew']/span").click()
-
-
-
-
 
 if __name__ == '__main__':
     driver.quit()

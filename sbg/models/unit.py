@@ -1,4 +1,4 @@
-from .driver import browser
+from sbg.common.driver import browser
 import unittest
 
 
