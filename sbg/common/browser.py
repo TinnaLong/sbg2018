@@ -1,4 +1,3 @@
-# -*- coding:utf-8 -*-
 import configparser
 import os.path
 from selenium import webdriver
@@ -19,7 +18,6 @@ class BrowserEngine(object):
     # read the browser type from config.ini file, return the driver
     def open_browser(self, driver):
         config = configparser.ConfigParser()
-        # file_path = os.path.dirname(os.getcwd()) + '/config/config.ini'
         file_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
         config.read(file_path)
 

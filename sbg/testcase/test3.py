@@ -1,15 +1,19 @@
-import unittest
 from sbg.common.browser import BrowserEngine
+import unittest
 
 
-class BaiduSearch(unittest.TestCase):
+class SBGTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        browse = BrowserEngine(cls)
-        cls.driver = browse.open_browser(cls)
+        browser = BrowserEngine(cls)
+        cls.driver = browser.open_browser(cls)
 
+    @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
+
+
+
 
 
