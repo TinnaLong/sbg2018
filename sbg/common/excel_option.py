@@ -41,28 +41,34 @@ def write07Excel(path):
              ["拆掉思维里的墙", "26.7", "机械工业出版社", "中文"]]
     for i in range(0, 4):
         for j in range(0, len(value[i])):
-            sheet.cell(row=i+1, column=j+1, value=str(value[i][j]))
+            sheet.cell(row=i + 1, column=j + 1, value=str(value[i][j]))
 
     wb.save(path)
     print("写入数据成功！")
 
 
-def read07Excel(path):
+def read07Excel(path, sheet_name):
     wb = openpyxl.load_workbook(path)
-    sheet = wb.get_sheet_by_name('2007测试表')
-
+    sheet = wb[sheet_name]
     for row in sheet.rows:
         for cell in row:
             print(cell.value, "\t", end="")
+            # array.setdefault()
+            # array.append(cell.value)
         print()
 
 
 # Test
 file_2003 = '/Users/admin/test/2003.xls'
-file_2007 = '/Users/admin/test/2007.xlsx'
+file_2007 = '/Users/admin/test/cancel_order.xlsx'
 
-write03Excel(file_2003)
-read03Excel(file_2003)
+# write03Excel(file_2003)
+# read03Excel(file_2003)
+#
+# write07Excel(file_2007)
+print(read07Excel(file_2007, 'Sheet1'))
 
-write07Excel(file_2007)
-read07Excel(file_2007)
+
+
+
+
