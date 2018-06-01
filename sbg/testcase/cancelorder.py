@@ -10,7 +10,7 @@ import openpyxl
 driver = webdriver.Firefox()
 driver.implicitly_wait(10)
 driver.maximize_window()
-driver.get('http://omtest.motionglobal.com')
+driver.get('http://om.motionglobal.com')
 action = ActionChains(driver)
 
 
@@ -22,12 +22,12 @@ def login():
     username.send_keys('sharly')
     pwd.clear()
     pwd.send_keys('1qaz!QAZ')
-    # sleep(10)
+    sleep(10)
     login_button.click()
 
 
 def transfer_order(order_code):
-    driver.get('http://omtest.motionglobal.com/salesorder/index/')
+    driver.get('http://om.motionglobal.com/salesorder/index/')
     WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located((By.ID, 'order_id')))
     order_input = driver.find_element_by_id('order_id')
     order_input.clear()
@@ -40,7 +40,7 @@ def transfer_order(order_code):
 
 
 def cancel_order(order_code):
-    driver.get("http://omtest.motionglobal.com/salesorder/edit/?oid=" + order_code)
+    driver.get("http://om.motionglobal.com/salesorder/edit/?oid=" + order_code)
     cancel_radio = driver.find_element_by_id('check-all-items')
     WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located((By.ID, 'check-all-items')))
     cancel_radio.click()
@@ -68,12 +68,14 @@ def bath_cancel_order(excel_path, sheet_name):
     sheet = wb[sheet_name]
     for i in range(1, sheet.max_column):
         order_code = sheet.cell(row=i, column=1).value
+        transfer_order(order_code)
         cancel_order(order_code)
 
 
 login()
 # bath_cancel_order('/Users/admin/test/cancel_order.xlsx', 'Sheet1')
-transfer_order('US0391870310G')
+transfer_order('CZ0277748710GV')
+cancel_order('CZ0277748710GV')
 
 
 
