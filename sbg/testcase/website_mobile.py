@@ -18,7 +18,7 @@ class MobileHomepageTest(unittest.TestCase):
         chrome_options.add_experimental_option('mobileEmulation', mobileEmulation)
         self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', options=chrome_options)
         self.driver.implicitly_wait(30)
-        self.driver.maximize_window()
+        # self.driver.maximize_window()
         self.verificationErrors = []
         self.accept_next_alert = True
 
