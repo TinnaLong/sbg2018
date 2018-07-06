@@ -37,13 +37,5 @@ for i in range(1, sheet.max_column):
     order_code = sheet.cell(row=i, column=1).value
     order_num = sheet.cell(row=i, column=2).value
 
-
-            
-
-
-
-# print(sheet.max_column)  # 获取最大列数
-# print(sheet.max_row)
-
-
-
+print(sheet.max_column)  # 获取最大列数
+print(sheet.max_row)

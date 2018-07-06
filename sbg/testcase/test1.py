@@ -4,13 +4,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
-
-
 driver = webdriver.Firefox()
 driver.implicitly_wait(10)
 driver.maximize_window()
 driver.get("https://www.smartbuyglasses.com")
-WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located((By.XPATH, "//div[@id='EDM-popUp']/div[1]/div/a[1]")))
+WebDriverWait(driver, 10, 0.5).until(
+    EC.presence_of_element_located((By.XPATH, "//div[@id='EDM-popUp']/div[1]/div/a[1]")))
 driver.find_element_by_xpath("//div[@id='EDM-popUp']/div[1]/div/a[1]").click()
 WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located((By.XPATH, "//li[@id='signin_li']/a/span")))
 login_loc = driver.find_element_by_xpath("//li[@id='signin_li']/a/span")
@@ -27,4 +26,3 @@ driver.find_element_by_xpath("//form[@id='loginFormNew']/span").click()
 
 if __name__ == '__main__':
     driver.quit()
-
