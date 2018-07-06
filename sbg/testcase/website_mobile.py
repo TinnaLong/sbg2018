@@ -16,7 +16,7 @@ class MobileHomepageTest(unittest.TestCase):
         mobileEmulation = {'deviceName': 'iPhone X'}
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_experimental_option('mobileEmulation', mobileEmulation)
-        self.driver = webdriver.Chrome(options=chrome_options)
+        self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', options=chrome_options)
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
         self.verificationErrors = []
