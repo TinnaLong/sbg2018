@@ -5,9 +5,9 @@ import unittest
 import openpyxl
 import os
 import time
-from sbg.common.logger import Logger
+# from sbg.common.logger import Logger
 
-logger = Logger(logger="MobileHomepageTest").getlog()
+# logger = Logger(logger="MobileHomepageTest").getlog()
 
 
 class MobileHomepageTest(unittest.TestCase):
@@ -35,10 +35,11 @@ class MobileHomepageTest(unittest.TestCase):
                 self.driver.get(web_url)
                 title = self.driver.title
                 if "Error" in title:
-                    logger.info(web_url + " " + "ERROR")
+                    # logger.info(web_url + " " + "ERROR")
                     self.get_screent_img()
                 else:
-                    logger.info(web_url + " " + "homepage is OK")
+                    # logger.info(web_url + " " + "homepage is OK")
+                    print(web_url + " " + "homepage is OK")
 
     def assertTitle(self, title):
         try:
